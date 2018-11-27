@@ -1,5 +1,5 @@
 def main():
-    import pandas as pd #this is how I usually import pandas
+    import pandas as pd
     import operator
     url = 'https://github.com/biogolf/League-of-Legends-Death-Point/raw/master/kills.csv'
     df = pd.read_csv(url)
