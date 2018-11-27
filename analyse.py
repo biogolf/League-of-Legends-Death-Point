@@ -7,6 +7,8 @@ def main():
     y = list(df['y_pos'])
     xy_pos = []
     killer = {}
+
+    #Saving the (x,y) in the xy_pos
     for i in range(len(x)):
         if not isinstance(x[i], str):
             x[i] = str(x[i])
@@ -14,8 +16,9 @@ def main():
             y[i] = str(y[i])
         if x[i].isdigit() and y[i].isdigit():
             xy_pos.append((x[i], y[i]))
-    print(xy_pos[0:5])
+    print(xy_pos[0:5]) #Test print
 
+    #Counting kills of the players and saving in dict killer
     for j in list(df['Killer']):
         if j not in killer:
             killer[j] = 1
@@ -23,5 +26,5 @@ def main():
             killer[j] += 1
 
     sorted_killer = sorted(killer.items(), key=operator.itemgetter(1), reverse=True)
-    print(sorted_killer[0:5])
+    print(sorted_killer[0:5]) #Test print
 main()
