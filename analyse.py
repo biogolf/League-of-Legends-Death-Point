@@ -8,7 +8,6 @@ def main():
     df = pd.read_csv(url)
     x = list(df['x_pos'])
     y = list(df['y_pos'])
-    xy_pos = []
     x_pos = []
     y_pos = []
     killer = {}
@@ -20,10 +19,8 @@ def main():
         if not isinstance(y[i], str):
             y[i] = str(y[i])
         if x[i].isdigit() and y[i].isdigit():
-            xy_pos.append((int(x[i]), int(y[i])))
             x_pos.append(int(x[i]))
             y_pos.append(int(y[i]))
-    print(xy_pos[0:5]) #Test print
 
     #Counting kills of the players and saving in dict killer
     for j in list(df['Killer']):
