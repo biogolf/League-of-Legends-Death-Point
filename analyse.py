@@ -25,8 +25,9 @@ def coordinate(team, reg_year):
                 xy[reg_year+' after 20 minutes'].append((kill[4], kill[5]))
 
 def main():
-    #url = 'https://github.com/biogolf/League-of-Legends-Death-Point/raw/master/LeagueofLegends.csv'
     url = r'C:\Users\USER\Documents\GitHub\League-of-Legends-Death-Point\LeagueofLegends.csv'
+    #you can change location to be your location in your computers
+    #or use(not recommend if you have poor internet) ===> url = 'https://github.com/biogolf/League-of-Legends-Death-Point/raw/master/LeagueofLegends.csv'
     df = pd.read_csv(url)
 
     for index, row in df.iterrows():
