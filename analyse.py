@@ -13,16 +13,18 @@ def linegraph(length, years, region, fmt):
     return plt.plot(years, avgl, fmt, label=region)
 
 def coordinate(team, reg_year):
+    bf = ' before 20 minutes'
+    af = ' after 20 minute'
     for kill in team:
         if isinstance(kill[4], int) and isinstance(kill[5], int):
-            if reg_year+' before 20 minutes' not in xy:
-                xy[reg_year+' before 20 minutes'] = []
-            if reg_year+' after 20 minutes' not in xy:
-                xy[reg_year+' after 20 minutes'] = []
+            if reg_year+bf not in xy:
+                xy[reg_year+bf] = []
+            if reg_year+af not in xy:
+                xy[reg_year+af] = []
             if kill[0] <= 20:
-                xy[reg_year+' before 20 minutes'].append((kill[4], kill[5]))
+                xy[reg_year+bf].append((kill[4], kill[5]))
             else:
-                xy[reg_year+' after 20 minutes'].append((kill[4], kill[5]))
+                xy[reg_year+af].append((kill[4], kill[5]))
 
 def main():
     url = r'C:\Users\USER\Documents\GitHub\League-of-Legends-Death-Point\LeagueofLegends.csv'
@@ -34,8 +36,12 @@ def main():
         row1b = json.loads(row['bKills'].replace("'",'"'))
         row1r = json.loads(row['rKills'].replace("'",'"'))
         reg_year = row['League']+str(row['Year'])
-        coordinate(row1b, reg_year)
-        coordinate(row1r, reg_year)
+        if row['Year'] == 2014 or row['League'] == "CLS" or row['League'] == "IEM" or row['League'] == "LCL" or\
+        row['League'] == "LJL" or row['League'] == "LLN" or row['League'] == "MSI" or row['League'] == "RR":
+            pass
+        else:
+            coordinate(row1b, reg_year)
+            coordinate(row1r, reg_year)
 
         if reg_year not in length:
             length[reg_year] = []
@@ -60,11 +66,9 @@ def main():
     plt.show()
 
     lyears = sorted(xy.keys())
-    lyears.remove("WC2014 before 20 minutes")
-    lyears.remove("WC2014 after 20 minutes")
     for year in lyears:
         total = len(xy[year])
-        plt.scatter([coor[0] for coor in xy[year]], [coor[1] for coor in xy[year]], label="test", color="k", s=0.8)
+        plt.scatter([coor[0] for coor in xy[year]], [coor[1] for coor in xy[year]], label="test", color="k", s=1)
         plt.title("League-of-Legends-Death-Point %s\nTotal Kills = %d" %(str(year), total))
         plt.show()
 
