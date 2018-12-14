@@ -3,16 +3,24 @@ import operator
 import matplotlib.pyplot as plt
 import json
 
-xy = {}
-length = {}
+xy = {} #dictionary that collect death points of each region and each year
+length = {} #dictionary that collect all games length of each region and each year
 
 def linegraph(length, years, region, fmt):
+    """To plot a line of each Region and each Year
+    length = data of lenght of all games
+    years = list of years that each region has
+    region = each region
+    fmt = format line graph"""
     avgl = []
     for year in years:
         avgl.append(sum(length[region+str(year)])/len(length[region+str(year)]))
     return plt.plot(years, avgl, fmt, label=region)
 
 def coordinate(team, reg_year):
+    """To separate the death points of each regions and each years by 20 minutes
+    team = kill of each team in each matches
+    reg_year = each regions and each years"""
     bf = ' before 20 minutes'
     af = ' after 20 minute'
     for kill in team:
@@ -38,7 +46,7 @@ def main():
         reg_year = row['League']+str(row['Year'])
         if row['Year'] == 2014 or row['League'] == "CLS" or row['League'] == "IEM" or row['League'] == "LCL" or\
         row['League'] == "LJL" or row['League'] == "LLN" or row['League'] == "MSI" or row['League'] == "RR":
-            pass
+            pass #To avoid the data of small regions, some matches of 2014
         else:
             coordinate(row1b, reg_year)
             coordinate(row1r, reg_year)
@@ -47,8 +55,7 @@ def main():
             length[reg_year] = []
         length[reg_year].append(row['gamelength'])
 
-    xlength_years = [2015,2016,2017,2018]
-    print(sorted(length.keys()))
+    #plot game average in line graph
     fmt = '-o'
     plt.style.use('ggplot')
     plt.xlabel('Year')
@@ -65,6 +72,7 @@ def main():
     plt.legend()
     plt.show()
 
+    #plot death point in scatter graph
     lyears = sorted(xy.keys())
     for year in lyears:
         total = len(xy[year])
