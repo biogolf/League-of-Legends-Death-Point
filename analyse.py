@@ -68,7 +68,7 @@ def main():
     lyears = sorted(xy.keys())
     for year in lyears:
         total = len(xy[year])
-        plt.scatter([coor[0] for coor in xy[year]], [coor[1] for coor in xy[year]], label="test", color="k", s=1)
+        plt.scatter([coor[0] for coor in xy[year]], [coor[1] for coor in xy[year]], color="k", s=1)
         plt.title("League-of-Legends-Death-Point %s\nTotal Kills = %d" %(str(year), total))
         plt.show()
 
