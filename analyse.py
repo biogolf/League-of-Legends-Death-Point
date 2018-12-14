@@ -13,16 +13,18 @@ def linegraph(length, years, region, fmt):
     return plt.plot(years, avgl, fmt, label=region)
 
 def coordinate(team, reg_year):
+    bf = ' before 20 minutes'
+    af = ' after 20 minute'
     for kill in team:
         if isinstance(kill[4], int) and isinstance(kill[5], int):
-            if reg_year+' before 20 minutes' not in xy:
-                xy[reg_year+' before 20 minutes'] = []
-            if reg_year+' after 20 minutes' not in xy:
-                xy[reg_year+' after 20 minutes'] = []
+            if reg_year+bf not in xy:
+                xy[reg_year+bf] = []
+            if reg_year+af not in xy:
+                xy[reg_year+af] = []
             if kill[0] <= 20:
-                xy[reg_year+' before 20 minutes'].append((kill[4], kill[5]))
+                xy[reg_year+bf].append((kill[4], kill[5]))
             else:
-                xy[reg_year+' after 20 minutes'].append((kill[4], kill[5]))
+                xy[reg_year+af].append((kill[4], kill[5]))
 
 def main():
     url = r'C:\Users\USER\Documents\GitHub\League-of-Legends-Death-Point\LeagueofLegends.csv'
