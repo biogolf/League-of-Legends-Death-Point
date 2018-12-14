@@ -9,7 +9,7 @@
  - NA League Championship Series (NALCS)
  - Oceanic Pro League (OPL)
  - Turkish Champions League (TCL)
-การแข่งขันชิงแชมป์โลก
+#### **การแข่งขันชิงแชมป์โลก**
  - World Championship (WC)
  
 ### ผู้จัดทำ Project
