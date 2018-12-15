@@ -36,6 +36,11 @@
  <img src="./Graph/Before/EULCS2016_before20.svg" width=45%> <img src="./Graph/After/EULCS2016_after20.svg" width=45%>
  <img src="./Graph/Before/EULCS2017_before20.svg" width=45%> <img src="./Graph/After/EULCS2017_after20.svg" width=45%>
  <img src="./Graph/Before/EULCS2018_before20.svg" width=45%> <img src="./Graph/After/EULCS2018_after20.svg" width=45%>
+  #### *LCK*
+ <img src="./Graph/Before/LCK2015_before20.svg" width=45%> <img src="./Graph/After/LCK2015_after20.svg" width=45%>
+ <img src="./Graph/Before/LCK2016_before20.svg" width=45%> <img src="./Graph/After/LCK2016_after20.svg" width=45%>
+ <img src="./Graph/Before/LCK2017_before20.svg" width=45%> <img src="./Graph/After/LCK2017_after20.svg" width=45%>
+ <img src="./Graph/Before/LCK2018_before20.svg" width=45%> <img src="./Graph/After/LCK2018_after20.svg" width=45%>
 
 ### ผู้จัดทำ Project
  1. นายภาสกร นุชิตขจรวุฒิ 61070164
