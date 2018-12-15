@@ -26,11 +26,11 @@
  ### **ผลลัพธ์ที่วิเคราะห์ออกมา**
  #### *ความยาวเกมเฉลี่ย*
  <img src="./Graph/average.svg">
- #### CBLoL
+  #### CBLoL
  <img src="./Graph/Before/CBLoL2016_before20.svg" width=45%> <img src="./Graph/After/CBLoL2016_after20.svg" width=45%>
  <img src="./Graph/Before/CBLoL2017_before20.svg" width=45%> <img src="./Graph/After/CBLoL2017_after20.svg" width=45%>
  <img src="./Graph/Before/CBLoL2018_before20.svg" width=45%> <img src="./Graph/After/CBLoL2018_after20.svg" width=45%>
- #### EULCS
+  #### EULCS
  <img src="./Graph/Before/EULCS2015_before20.svg" width=45%> <img src="./Graph/After/EULCS2015_after20.svg" width=45%>
  <img src="./Graph/Before/EULCS2016_before20.svg" width=45%> <img src="./Graph/After/EULCS2016_after20.svg" width=45%>
  <img src="./Graph/Before/EULCS2017_before20.svg" width=45%> <img src="./Graph/After/EULCS2017_after20.svg" width=45%>
