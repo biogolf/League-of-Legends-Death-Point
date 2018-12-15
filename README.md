@@ -25,4 +25,4 @@
  2. นาย พีรกานต์ เดชวิไลเรือง 61070147
  3. นาย อนุชา เว่ย 61070257
  4. นางสาวอัญชิษฐา บุญณะสิทธิ์ 61070264
-## ขอบคุณข้อมูลจาก : https://www.kaggle.com/chuckephron/leagueoflegends#LeagueofLegends.csv
+##### ขอบคุณข้อมูลจาก : https://www.kaggle.com/chuckephron/leagueoflegends#LeagueofLegends.csv
