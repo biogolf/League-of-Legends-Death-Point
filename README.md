@@ -49,7 +49,7 @@
  <img src="./Graph/Before/EULCS2017_before20.svg" width=45%> <img src="./Graph/After/EULCS2017_after20.svg" width=45%>
  <img src="./Graph/Before/EULCS2018_before20.svg" width=45%> <img src="./Graph/After/EULCS2018_after20.svg" width=45%>
   #### *LCK*
-  ช่วงต้นเกมของปี 2015 เน้นเก็บมังกรที่ฝั่งแม่น้ำล่างตลอดจนถึงช่วงท้ายเกมเช่นเดียวกับปี 2016 ส่วนปี 2017 การฆ่ากันหน้า Nexus มีจำนวนที่มากกว่าปีก่อนๆ ส่วนปี 2018 ช่วงต้นเกมมีการฆ่ากันที่เล่นบนและล่างมากกว่าเลนกลาง
+  ช่วงต้นเกมของปี 2015 เน้นเก็บมังกรที่ฝั่งแม่น้ำล่างตลอดจนถึงช่วงท้ายเกมเช่นเดียวกับปี 2016 ส่วนปี 2017 การฆ่ากันหน้า Nexus มีจำนวนที่มากกว่าปีก่อนๆ ส่วนปี 2018 ช่วงต้นเกมมีการฆ่ากันที่เลนบนและล่างมากกว่าเลนกลาง
   
  <img src="./Graph/Before/LCK2015_before20.svg" width=45%> <img src="./Graph/After/LCK2015_after20.svg" width=45%>
  <img src="./Graph/Before/LCK2016_before20.svg" width=45%> <img src="./Graph/After/LCK2016_after20.svg" width=45%>
