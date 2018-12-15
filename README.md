@@ -41,6 +41,31 @@
  <img src="./Graph/Before/LCK2016_before20.svg" width=45%> <img src="./Graph/After/LCK2016_after20.svg" width=45%>
  <img src="./Graph/Before/LCK2017_before20.svg" width=45%> <img src="./Graph/After/LCK2017_after20.svg" width=45%>
  <img src="./Graph/Before/LCK2018_before20.svg" width=45%> <img src="./Graph/After/LCK2018_after20.svg" width=45%>
+  #### *LMS*
+ <img src="./Graph/Before/LMS2015_before20.svg" width=45%> <img src="./Graph/After/LMS2015_after20.svg" width=45%>
+ <img src="./Graph/Before/LMS2016_before20.svg" width=45%> <img src="./Graph/After/LMS2016_after20.svg" width=45%>
+ <img src="./Graph/Before/LMS2017_before20.svg" width=45%> <img src="./Graph/After/LMS2017_after20.svg" width=45%>
+ <img src="./Graph/Before/LMS2018_before20.svg" width=45%> <img src="./Graph/After/LMS2018_after20.svg" width=45%>
+  #### *NALCS*
+ <img src="./Graph/Before/NALCS2015_before20.svg" width=45%> <img src="./Graph/After/NALCS2015_after20.svg" width=45%>
+ <img src="./Graph/Before/NALCS2016_before20.svg" width=45%> <img src="./Graph/After/NALCS2016_after20.svg" width=45%>
+ <img src="./Graph/Before/NALCS2017_before20.svg" width=45%> <img src="./Graph/After/NALCS2017_after20.svg" width=45%>
+ <img src="./Graph/Before/NALCS2018_before20.svg" width=45%> <img src="./Graph/After/NALCS2018_after20.svg" width=45%>
+  #### *OPL*
+ <img src="./Graph/Before/OPL2016_before20.svg" width=45%> <img src="./Graph/After/OPL2016_after20.svg" width=45%>
+ <img src="./Graph/Before/OPL2017_before20.svg" width=45%> <img src="./Graph/After/OPL2017_after20.svg" width=45%>
+ <img src="./Graph/Before/OPL2018_before20.svg" width=45%> <img src="./Graph/After/OPL2018_after20.svg" width=45%>
+  #### *TCL*
+ <img src="./Graph/Before/TCL2015_before20.svg" width=45%> <img src="./Graph/After/TCL2015_after20.svg" width=45%>
+ <img src="./Graph/Before/TCL2016_before20.svg" width=45%> <img src="./Graph/After/TCL2016_after20.svg" width=45%>
+ <img src="./Graph/Before/TCL2017_before20.svg" width=45%> <img src="./Graph/After/TCL2017_after20.svg" width=45%>
+ <img src="./Graph/Before/TCL2018_before20.svg" width=45%> <img src="./Graph/After/TCL2018_after20.svg" width=45%>
+ #### **WC**
+ <img src="./Graph/Before/WC2015_before20.svg" width=45%> <img src="./Graph/After/WC2015_after20.svg" width=45%>
+ <img src="./Graph/Before/WC2016_before20.svg" width=45%> <img src="./Graph/After/WC2016_after20.svg" width=45%>
+ <img src="./Graph/Before/WC2017_before20.svg" width=45%> <img src="./Graph/After/WC2017_after20.svg" width=45%>
+ 
+ 
 
 ### ผู้จัดทำ Project
  1. นายภาสกร นุชิตขจรวุฒิ 61070164
