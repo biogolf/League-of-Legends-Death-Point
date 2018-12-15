@@ -21,7 +21,8 @@
  - **B ย่อมาจากBaron** คือ สัตว์ในตำนานที่จะเสริมพลังความแข็งแกร่งให้มินเนี่ยนฝั่งที่กำจัดได้
  - **D ย่อมาจาก Dragon** คือ มังกรที่จะเสริมพลังความแข็งแกร่งให้กับตัวละครทั้งทีมของฝั่งที่กำจัดได้
  
- ![alt text](./Graph/After/CBLoL2016_after20.svg){:height="36px" width="36px"}
+ ![alt text](./Graph/After/CBLoL2016_after20.svg)
+ <img src="./Graph/After/CBLoL2016_after20.svg" width="48">
  ![alt text](./Graph/Before/CBLoL2016_before20.svg)
 ### ผู้จัดทำ Project
  1. นายภาสกร นุชิตขจรวุฒิ 61070164
