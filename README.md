@@ -1,7 +1,7 @@
 # **League-of-Legends-Death-Point**
 ## เกี่ยวกับ Project 
 ### จุดประสงค์ของ Project
- จุดประสงค์ของ Project คือการเอาข้อมูล Match การแข่งขันกีฬา E-sport  ของเกม League-of-Legends ในระดับลีค มาวิเคราะห์หาจุดพิกัดในการฆ่าและความยาวของเกมเฉลี่ยนต่อต่อปี ตั้งแต่ปี 2015 ถึง ต้นปี 2018 โดยแบ่งออกเป็น 7 ลีค ดังนี้
+ จุดประสงค์ของ Project คือการเอาข้อมูล Match การแข่งขันกีฬา E-sport  ของเกม League-of-Legends ในระดับลีค มาวิเคราะห์หาจุดพิกัดในการฆ่าและความยาวของเกมเฉลี่ยต่อปี ตั้งแต่ปี 2015 ถึง ต้นปี 2018 โดยแบ่งออกเป็น 7 ลีค ดังนี้
  - Campeonato Brasileiro de League of Legends (CBLoL)
  - EU League Championship Series (EULCS)
  - League of Legends Champions Korea (LCK)
@@ -22,6 +22,10 @@
  - **D ย่อมาจาก Dragon** คือ มังกรที่จะเสริมพลังความแข็งแกร่งให้กับตัวละครทั้งทีมของฝั่งที่กำจัดได้
  
  ## =====================================================
+ 
+ ### **ผลลัพธ์ที่วิเคราะห์ออกมา**
+ ## *ความยาวเกมเฉลี่ย*
+ <img src="./Graph/average.svg">
  
  <img src="./Graph/Before/CBLoL2016_before20.svg" width=45%> <img src="./Graph/After/CBLoL2016_after20.svg" width=45%>
  
